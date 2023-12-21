@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resort Getaway</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <h1>Welcome to Resort Getaway</h1>
+      <p>Your ultimate destination for a relaxing and luxurious vacation.</p>
+
+      <!-- Input Controls -->
+      <form action="#" method="post">
+        <input type="text" id="name" name="name" required placeholder="Name:">
+
+        <input type="email" id="email" name="email" required placeholder="Email:">
+
+        <label for="destination">Choose a Destination:</label>
+        <select id="destination" name="destination" required>
+        <option value="beach">Beach Resort</option>
+        <option value="mountain">Mountain Retreat</option>
+        <option value="spa">Spa & Wellness</option>
+        </select>
+
+        <button type="submit">Book Now</button>
+      </form>
+      
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section id="destinations">
+    <div class="container">
+      <h2>Our Destinations</h2>
+      <p>Explore our featured resort destinations.</p>
+      <div class="image-container">
+        <div class="image-item">
+          <img src="https://www.chudu24.com/wp-content/uploads/2017/09/2-113.jpg" alt="Image 1">
+          <div class="image-caption">Beach Resort</div>
+        </div>
+  
+        <div class="image-item">
+          <img src="https://ticotravel.com.vn/wp-content/uploads/2022/11/Ville-de-mont-mountain-resort-5.jpg" alt="Image 2">
+          <div class="image-caption">Mountain Retreat</div>
+        </div>
+  
+        <div class="image-item">
+          <img src="https://pendecor.vn/uploads/files/2021/04/17/spa-resort-la-gi-2.png" alt="Image 3">
+          <div class="image-caption">Spa & Wellness</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p>Indulge in our premium services for a memorable stay.</p>
+      <!-- Include details about services offered, such as spa, dining, activities, etc. -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions or want to book your getaway? Reach out to us!</p>
+      <!-- Include the contact form here -->
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
